@@ -183,3 +183,45 @@ section.linguas .center{
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
+
+@media screen and (max-width: 768px){
+    .logo,
+    form.form-login{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    form.form-login{
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    form.form-login div.form-element{
+        display: block;
+        margin: 10px 0;
+    }
+    
+    form.form-login div.form-element p{
+        color: white;
+        font-size: 14px;
+    }
+    form.form-login div.form-element input[type=email], 
+    form.form-login div.form-element input[type=password]{
+        margin-top: 5px;
+        border: 0;
+        padding: 5px;
+        outline: none;
+        width: 100%;
+        max-width: 320px;
+    }
+    form.form-login div.form-element input[type=submit]{
+        width: 140px;
+    }
+
+    div.img-pessoas{
+        display: none;
+    }
+
+    div.abrir-conta{
+        width: 100%;
+    }
